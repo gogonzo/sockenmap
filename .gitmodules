@@ -1,0 +1,3 @@
+[submodule "sockenmap/socken"]
+	path = sockenmap/socken
+	url = https://github.com/gogonzo/socken
