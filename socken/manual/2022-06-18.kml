@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml creator="plotaroute.com http://www.plotaroute.com" xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>Unnamed Route</name>
+<open>1</open>
+<Style id="StartIconStyle">
+<IconStyle id="StartIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/starticon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="FinishIconStyle">
+<IconStyle id="FinishIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/finishicon.png</href></Icon>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<Style id="RoutePath">
+<LineStyle>
+<color>E52975F3</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Style id="WaypointIconStyle">
+<IconStyle id="WaypointIcon">
+<Icon><href>https://www.plotaroute.com/images/icons/waypointicon.png</href></Icon>
+<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+</IconStyle>
+<LabelStyle><scale>0.7</scale></LabelStyle>
+</Style>
+<LookAt>
+<longitude>13.159720</longitude>
+<latitude>55.371827</latitude>
+<range>400</range>
+<tilt>60</tilt>
+<altitudeMode>clampToGround</altitudeMode>
+</LookAt>
+<Folder id="Routenull">
+<name><![CDATA[Unnamed Route]]> </name><description><![CDATA[]]></description><Placemark>
+<name><![CDATA[Fly-Over Tour]]></name>
+<description><![CDATA[]]></description>
+<styleUrl>#RoutePath</styleUrl>
+<LineString id="Route">
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+13.15972,55.371827,2
+13.15972,55.371827,2
+13.160032,55.371742,1
+13.160009,55.371701,1
+13.160391,55.371629,1
+13.160789,55.371555,2
+13.161174,55.371483,1
+13.161559,55.371411,1
+13.161946,55.371338,1
+13.163073,55.371147,1
+13.163139,55.371286,2
+13.163147,55.371301,2
+13.163332,55.371254,2
+13.163369,55.371244,1
+13.163404,55.371235,1
+13.164057,55.371068,2
+13.16411,55.371068,2
+13.164137,55.371085,2
+13.164154,55.371103,2
+13.164186,55.371143,2
+13.16434,55.37112,2
+13.165891,55.370733,2
+13.166287,55.371199,3
+13.166432,55.37131,4
+13.167088,55.371109,4
+13.167977,55.370883,3
+13.170179,55.370661,3
+13.170209,55.370718,3
+13.171236,55.370619,4
+13.171268,55.370616,4
+13.171457,55.370598,4
+13.171676,55.370576,4
+13.172435,55.370501,4
+13.172558,55.370513,4
+13.172738,55.370572,4
+13.17291,55.370539,4
+13.173062,55.370508,5
+13.173176,55.370472,5
+13.173246,55.370533,5
+13.173577,55.370995,5
+13.1741,55.371012,5
+13.174199,55.371047,5
+13.174536,55.371251,5
+13.17559,55.372116,7
+13.175618,55.372268,7
+13.175788,55.372255,7
+13.175885,55.372352,7
+13.175975,55.372362,7
+13.176547,55.372842,7
+13.177205,55.37338,7
+13.177882,55.373926,8
+13.178236,55.374217,8
+13.178451,55.374577,8
+13.178561,55.374563,8
+13.178578,55.374632,8
+13.181025,55.374345,8
+13.188305,55.373611,9
+13.189224,55.373571,9
+13.191431,55.373564,10
+13.196031,55.373595,12
+13.198595,55.373587,12
+13.200296,55.373541,12
+13.200556,55.373558,12
+13.200813,55.373626,12
+13.201053,55.373722,12
+13.202167,55.374503,12
+13.20501,55.376176,13
+13.205539,55.376437,14
+13.20603,55.376642,14
+13.206445,55.376762,14
+13.207047,55.376892,14
+13.207639,55.376953,13
+13.210137,55.376994,12
+13.210496,55.377021,13
+13.210863,55.377067,13
+13.211053,55.377114,13
+13.211523,55.377272,13
+13.212283,55.377581,13
+13.214083,55.378397,14
+13.214519,55.378546,14
+13.214757,55.378609,15
+13.216099,55.378898,19
+13.216705,55.378941,22
+13.217018,55.378946,23
+13.218241,55.378881,26
+13.21894,55.378884,26
+13.222172,55.379159,26
+13.224923,55.379434,21
+13.227183,55.379634,23
+13.227841,55.379692,25
+13.229111,55.379741,27
+13.231474,55.379605,25
+13.234243,55.379412,28
+13.235028,55.379397,28
+13.235264,55.379407,28
+13.236028,55.379485,28
+13.236428,55.379547,28
+13.237965,55.379866,28
+13.239067,55.38007,27
+13.240277,55.380245,26
+13.240981,55.380306,26
+13.241622,55.380305,25
+13.24191,55.380289,25
+13.242314,55.380245,25
+13.242982,55.38014,24
+13.245371,55.379666,23
+13.245538,55.379657,23
+13.245684,55.379683,23
+13.245794,55.379751,23
+13.247019,55.382283,23
+13.247349,55.382844,24
+13.247443,55.382946,25
+13.247609,55.383048,25
+13.247906,55.383174,25
+13.250432,55.384011,26
+13.251692,55.384367,27
+13.256486,55.385519,27
+13.256896,55.385596,27
+13.257369,55.385653,27
+13.259087,55.38582,27
+13.268174,55.38663,27
+13.26851,55.386686,27
+13.270095,55.387054,27
+13.275175,55.388164,28
+13.276067,55.388318,29
+13.2768,55.388417,29
+13.277585,55.388482,30
+13.278302,55.388511,31
+13.279111,55.388528,30
+13.280076,55.38849,29
+13.280806,55.388429,28
+13.281431,55.388356,28
+13.282004,55.388268,28
+13.282765,55.388123,28
+13.283416,55.387977,28
+13.290821,55.385819,30
+13.291851,55.38558,31
+13.29274,55.385432,31
+13.293642,55.385333,31
+13.295398,55.385203,31
+13.296453,55.385145,31
+13.297123,55.385136,30
+13.305925,55.385534,34
+13.308551,55.385671,37
+13.309927,55.385784,37
+13.310729,55.385869,35
+13.311088,55.385871,34
+13.311358,55.385846,33
+13.312342,55.385649,31
+13.312608,55.385621,30
+13.313135,55.38562,29
+13.313537,55.385647,29
+13.314748,55.385784,30
+13.316773,55.385862,34
+13.31923,55.386003,37
+13.320017,55.386083,37
+13.320454,55.386149,36
+13.327146,55.38739,28
+13.327682,55.387473,29
+13.329674,55.387679,32
+13.333673,55.388028,31
+13.334186,55.388098,31
+13.334653,55.388201,31
+13.335148,55.388342,31
+13.336799,55.388862,30
+13.337255,55.38898,30
+13.3377,55.389058,30
+13.338496,55.389146,29
+13.340805,55.389345,28
+13.341331,55.389358,28
+13.342997,55.389307,28
+13.344964,55.389033,28
+13.345267,55.389022,28
+13.34632,55.389087,28
+13.348852,55.389366,28
+13.349804,55.389515,28
+13.353637,55.390342,28
+13.354497,55.39051,28
+13.354942,55.390573,28
+13.355742,55.390661,28
+13.359084,55.390886,28
+13.361726,55.39113,27
+13.3627,55.391196,27
+13.366492,55.391326,27
+13.366774,55.391351,27
+13.367218,55.391432,27
+13.368567,55.391907,27
+13.370249,55.392315,27
+13.371656,55.392584,27
+13.373126,55.392873,27
+13.373527,55.392921,27
+13.374435,55.392949,27
+13.376472,55.392973,27
+13.378657,55.393181,27
+13.382375,55.393479,27
+13.399094,55.394409,27
+13.399939,55.394466,27
+13.400575,55.394536,27
+13.401561,55.394722,27
+13.407228,55.396271,25
+13.407754,55.396442,25
+13.408697,55.396788,24
+13.408932,55.396872,24
+13.410763,55.397546,27
+13.41143,55.397722,27
+13.412014,55.397844,27
+13.41291,55.397977,27
+13.413693,55.398062,28
+13.414859,55.39815,29
+13.415604,55.398108,28
+13.416299,55.398036,29
+13.416683,55.397942,29
+13.417007,55.397806,28
+13.417711,55.397446,27
+13.418402,55.397131,28
+13.41893,55.396934,28
+13.419573,55.396745,28
+13.420375,55.396547,28
+13.421085,55.396409,28
+13.421939,55.396384,27
+13.424898,55.396337,26
+13.429869,55.39617,26
+13.432631,55.396041,27
+13.43392,55.396023,27
+13.43796,55.396101,25
+13.439608,55.396115,24
+13.444043,55.396204,24
+13.44505,55.396231,24
+13.446109,55.396292,25
+13.448121,55.396495,24
+13.449516,55.396677,22
+13.449995,55.39676,21
+13.450507,55.396872,21
+13.45116,55.397067,21
+13.45183,55.397368,22
+13.451935,55.397226,22
+13.451928,55.39708,21
+13.45162,55.396787,21
+13.451296,55.396381,20
+13.451581,55.396408,20
+13.453133,55.396689,20
+13.461787,55.398311,19
+13.463035,55.398529,15
+13.463472,55.398549,15
+13.467769,55.398347,20
+13.46954,55.398285,22
+13.472264,55.398167,22
+13.474298,55.398059,22
+13.475525,55.398004,23
+13.475637,55.39801,23
+13.475771,55.398049,23
+13.475833,55.398104,23
+13.475857,55.39816,23
+13.475837,55.398216,24
+13.473058,55.401479,28
+13.478264,55.402897,36
+13.480286,55.40368,39
+13.480815,55.403841,39
+13.485133,55.405021,31
+13.484867,55.405382,31
+13.484049,55.406597,34
+13.484057,55.4067,34
+13.484142,55.40678,33
+13.484278,55.40685,33
+13.48915,55.407874,18
+13.489696,55.408006,17
+13.490164,55.408198,16
+13.491188,55.408677,14
+13.495712,55.410828,10
+13.498012,55.411925,12
+13.49866,55.412217,12
+13.500565,55.412893,14
+13.500766,55.412972,14
+13.500877,55.413054,14
+13.500917,55.413134,14
+13.500919,55.413295,14
+13.500382,55.415085,15
+13.500295,55.415447,14
+13.500291,55.415558,14
+13.500375,55.415833,14
+13.50663,55.41571,11
+13.507262,55.415725,11
+13.507795,55.415764,11
+13.50846,55.415843,11
+13.509409,55.416042,11
+13.50998,55.416192,11
+13.510455,55.416338,11
+13.511421,55.416688,11
+13.512079,55.416892,12
+13.512694,55.417045,13
+13.51365,55.417247,14
+13.514869,55.417482,14
+13.516313,55.41771,15
+13.519021,55.418095,17
+13.520244,55.418293,17
+13.52346,55.418906,22
+13.524659,55.419107,23
+13.525798,55.41927,24
+13.52673,55.419382,25
+13.528843,55.419573,24
+13.529731,55.419688,23
+13.53063,55.419866,22
+13.533526,55.420577,22
+13.53437,55.420747,19
+13.535244,55.420886,19
+13.539855,55.421474,20
+13.542659,55.421762,22
+13.543858,55.421872,22
+13.545542,55.421986,22
+13.548672,55.422141,20
+13.557083,55.422352,17
+13.558424,55.422425,16
+13.558875,55.422477,16
+13.55953,55.422621,16
+13.562312,55.423458,18
+13.563012,55.42364,19
+13.563421,55.423709,19
+13.563834,55.423733,19
+13.56415,55.423731,19
+13.564547,55.423689,20
+13.565456,55.423562,21
+13.568239,55.423283,22
+13.569433,55.42307,22
+13.570989,55.422765,20
+13.571387,55.422734,20
+13.571735,55.422726,20
+13.571986,55.422743,20
+13.572189,55.422776,20
+13.574944,55.423422,17
+13.575683,55.423645,16
+13.578946,55.424769,18
+13.583468,55.425837,10
+13.583986,55.425922,12
+13.584424,55.42595,15
+13.584839,55.425949,15
+13.585123,55.425932,14
+13.586876,55.425624,14
+13.589444,55.425147,17
+13.589582,55.425123,17
+13.593425,55.424302,13
+13.593843,55.424219,12
+13.594217,55.42417,12
+13.594792,55.42415,12
+13.596301,55.424185,13
+13.596765,55.424162,13
+13.59925,55.423814,17
+13.599576,55.423782,17
+13.60039,55.423763,15
+13.601828,55.423763,12
+13.603075,55.42374,12
+13.605185,55.423682,15
+13.605762,55.423647,13
+13.606952,55.423507,12
+13.608622,55.423284,10
+13.608981,55.423245,11
+13.610358,55.4231,9
+13.612134,55.423021,8
+13.612947,55.423015,8
+13.61377,55.423033,10
+13.614716,55.423097,12
+13.615717,55.423179,12
+13.616142,55.4232,12
+13.61672,55.423196,13
+13.617823,55.423141,16
+13.618436,55.423137,15
+13.619029,55.423178,13
+13.619996,55.423219,13
+13.620688,55.423159,13
+13.622139,55.422856,12
+13.622818,55.422608,11
+13.625358,55.421385,12
+13.626698,55.420809,13
+13.630656,55.419111,10
+13.631555,55.418743,11
+13.632093,55.41857,11
+13.632944,55.418377,11
+13.633344,55.418307,11
+13.634256,55.418215,11
+13.635068,55.418196,10
+13.635588,55.418206,9
+13.636719,55.418234,7
+13.644457,55.418451,3
+13.646095,55.418441,3
+13.647104,55.418405,3
+13.651425,55.4182,3
+13.652825,55.418119,3
+13.655858,55.417909,2
+13.656672,55.417885,2
+13.657348,55.417904,2
+13.662435,55.418122,4
+13.664134,55.418216,4
+13.665788,55.418342,4
+13.666606,55.418344,4
+13.667151,55.418327,4
+13.671132,55.418044,4
+13.671763,55.41801,4
+13.673433,55.417982,4
+13.673934,55.417998,4
+13.674399,55.418047,5
+13.676501,55.418352,8
+13.677771,55.418482,7
+13.679565,55.418566,4
+13.680562,55.418569,4
+13.682256,55.418502,6
+13.682841,55.418493,7
+13.683663,55.418559,7
+13.684425,55.418716,6
+13.685079,55.418924,5
+13.689229,55.420608,10
+13.692675,55.422159,7
+13.693461,55.42249,6
+13.696143,55.423391,4
+13.698042,55.424052,6
+13.698216,55.424114,6
+13.701053,55.425135,7
+13.701939,55.425426,7
+13.702758,55.425656,6
+13.706515,55.426423,6
+13.707401,55.426565,6
+13.709461,55.426783,5
+13.714372,55.427269,5
+13.714873,55.427304,4
+13.715377,55.427312,4
+13.717458,55.427401,4
+13.718534,55.427465,5
+13.719983,55.427515,4
+13.720899,55.427484,2
+13.721289,55.427444,1
+13.721506,55.427404,2
+13.72309,55.427051,3
+13.723601,55.426964,3
+13.724411,55.426823,3
+13.725484,55.426688,4
+13.727581,55.426519,4
+13.728524,55.426473,4
+13.73043,55.426409,5
+13.732131,55.42644,6
+13.73338,55.426506,6
+13.735054,55.426641,8
+13.735862,55.426682,7
+13.736816,55.4267,5
+13.739573,55.426712,9
+13.739634,55.426621,8
+13.749571,55.426268,2
+13.75044,55.426255,2
+13.751034,55.426273,2
+13.751603,55.426342,3
+13.752688,55.426387,4
+13.758163,55.4268,1
+13.759263,55.426839,2
+13.761158,55.426858,2
+13.761933,55.42682,3
+13.76258,55.426718,3
+13.763815,55.426433,3
+13.76559,55.426195,4
+13.766237,55.426139,4
+13.767805,55.425928,5
+13.76895,55.425665,6
+13.769788,55.425495,5
+13.770579,55.425377,5
+13.770586,55.425434,5
+13.771796,55.425343,5
+13.772554,55.425327,5
+13.773961,55.425354,4
+13.77582,55.425475,2
+13.776312,55.425494,2
+13.777252,55.42548,2
+13.778743,55.425382,3
+13.779457,55.42537,3
+13.783256,55.425489,4
+13.784569,55.425461,4
+13.785323,55.425421,5
+13.785995,55.425364,5
+13.787228,55.425233,4
+13.789797,55.424921,6
+13.790361,55.424872,6
+13.791836,55.424802,5
+13.793093,55.424809,5
+13.798793,55.425037,3
+13.799474,55.425072,3
+13.800176,55.425135,3
+13.800784,55.425221,4
+13.801529,55.425374,4
+13.802242,55.425562,5
+13.802616,55.425692,4
+13.802687,55.425634,4
+13.802888,55.425705,5
+13.803035,55.425756,5
+13.803216,55.425673,4
+13.803423,55.425639,4
+13.807152,55.425936,4
+13.80771,55.426006,4
+13.808036,55.426089,4
+13.808223,55.426139,4
+13.808337,55.426155,4
+13.808404,55.426159,4
+13.809886,55.426193,3
+13.810216,55.426199,2
+13.810697,55.42626,2
+13.811114,55.426391,2
+13.813469,55.426903,1
+13.814169,55.427038,1
+13.814877,55.427125,1
+13.816972,55.427217,1
+13.816953,55.427391,1
+13.821739,55.427587,1
+13.82247,55.42766,1
+13.822635,55.427605,2
+13.822709,55.427563,2
+13.823475,55.427465,1
+13.823849,55.427453,1
+13.824248,55.427466,1
+13.824951,55.427556,1
+13.825093,55.427467,1
+13.825206,55.427466,1
+13.825827,55.427532,1
+13.825987,55.427568,1
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>START</name>
+<styleUrl>#StartIconStyle</styleUrl>
+<Point>
+<coordinates>13.15972,55.371827,2</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Start on ]]></name>
+<description><![CDATA[Start on ]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.15972,55.371827,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.160032,55.371742,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.160009,55.371701,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.163073,55.371147,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.163147,55.371301,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Järnvägsgatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.164186,55.371143,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Johan Kocksgatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.165891,55.370733,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Östergatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.166432,55.37131,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Skarpskyttegatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.170179,55.370661,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.170209,55.370718,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.173176,55.370472,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.173577,55.370995,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sligh]]></name>
+<description><![CDATA[Turn slight left onto Gyllegatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.174536,55.371251,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Böckaregatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.175618,55.372268,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.175788,55.372255,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.178451,55.374577,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.178561,55.374563,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Engelbrektsgatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.178578,55.374632,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp right onto Stora Beddinge byaväg]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.45183,55.397368,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn sharp]]></name>
+<description><![CDATA[Turn sharp left onto Österrikevägen]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.451296,55.396381,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Svenshögsvägen]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.473058,55.401479,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left ]]></name>
+<description><![CDATA[Turn left onto Östra Vemmenhögsvägen]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.485133,55.405021,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Landsvägen]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.500375,55.415833,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Västra Kustvägen]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.719983,55.427515,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.739573,55.426712,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.739634,55.426621,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.770579,55.425377,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Västerleden]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.770586,55.425434,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.802616,55.425692,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.802687,55.425634,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Gjuterigatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.803035,55.425756,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep left]]></name>
+<description><![CDATA[Keep left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.810697,55.42626,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn left]]></name>
+<description><![CDATA[Turn left]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.816972,55.427217,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right onto Sjömansgatan]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.816953,55.427391,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right onto Österleden]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.82247,55.42766,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Keep right]]></name>
+<description><![CDATA[Keep right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.822635,55.427605,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[Turn right]]></name>
+<description><![CDATA[Turn right]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.824951,55.427556,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<description><![CDATA[FINISH]]></description>
+<styleUrl>#WaypointIconStyle</styleUrl>
+<Point>
+<coordinates>13.825987,55.427568,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name><![CDATA[FINISH]]></name>
+<styleUrl>#FinishIconStyle</styleUrl>
+<Point>
+<coordinates>13.825987,55.427568,1</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<ScreenOverlay>
+<name><![CDATA[plotaroute.com]]></name>
+<visibility>1</visibility>
+<open>1</open>
+<Icon>
+<href>https://www.plotaroute.com/images/logo34reversev3.png</href>
+</Icon>
+<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<screenXY x="0.01" y="0.94" xunits="fraction" yunits="fraction"/>
+<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+</ScreenOverlay>
+<Snippet><![CDATA[This route was downloaded from <a href="https://www.plotaroute.com">plotaroute.com</a>]]></Snippet>
+</Document>
+</kml>
