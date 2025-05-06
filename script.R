@@ -103,6 +103,7 @@ orter_statistics <- activity_orter |>
   )
 
 orter <- dplyr::left_join(orter, orter_statistics)
+
 orter <- dplyr::mutate(
   orter,
   n = ifelse(is.na(n), 0, n),
