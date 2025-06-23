@@ -142,7 +142,7 @@ m <- leaflet() |>
   addPolygons(
     data = socken,
     fillColor = ~ ifelse(visited, "white", "red"),
-    color = "black",
+    color = "#006b52",
     dashArray = "5, 5",
     weight = 1,
     # add hover
