@@ -10,7 +10,7 @@ deso <- sf::st_read("DeSO_2018_v2.gpkg") |> sf::st_transform(sf::st_crs(socken))
 orter <- sf::st_read("Tatorter_1980_2020.gpkg") |> sf::st_transform(sf::st_crs(socken))
 socken <- sf::st_transform(socken, sf::st_crs(4326))
 deso <- sf::st_transform(deso, sf::st_crs(4326))
-orter <- sf::st_transform(orter, sf::st_crs(4326))
+orter <- sf::st_transform(orter, sf::st_crs(4326)) |> dplyr::filter(LANNAMN == "Skåne")
 
 # is last trip
 activities <- activities |>
@@ -25,7 +25,6 @@ activities <- activities |>
 activities$label <- lapply(activities$label, htmltools::HTML)
 
 # filter socken and order just to Skåne
-# orter <- dplyr::filter(orter, LANNAMN == "Skåne")
 socken_centroids <- socken |>
   dplyr::filter(omradesnummer == 1) |>
   dplyr::mutate(SHAPE = sf::st_centroid(SHAPE))
@@ -88,9 +87,12 @@ activity_orter <- do.call(
     seq_len(nrow(activities)),
     function(idx) {
       activity <- activities[idx, ]
-      activity_orter <- orter[unlist(sf::st_intersects(activity, orter)), c("UUID", "TATORT", "BEF")]
-      activity_orter$date <- activity$date
-      as.data.frame(activity_orter)
+      ort_idx <- unlist(sf::st_intersects(activity, orter))
+      if (length(ort_idx)) {
+        activity_orter <- orter[ort_idx, c("UUID", "TATORT", "BEF")]
+        activity_orter$date <- activity$date
+        as.data.frame(activity_orter)
+      }
     }
   )
 )
