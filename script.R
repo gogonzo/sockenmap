@@ -10,7 +10,7 @@ deso <- sf::st_read("DeSO_2018_v2.gpkg") |> sf::st_transform(sf::st_crs(socken))
 orter <- sf::st_read("Tatorter_1980_2020.gpkg") |> sf::st_transform(sf::st_crs(socken))
 socken <- sf::st_transform(socken, sf::st_crs(4326))
 deso <- sf::st_transform(deso, sf::st_crs(4326))
-orter <- sf::st_transform(orter, sf::st_crs(4326)) |> dplyr::filter(LANNAMN == "Skåne")
+orter <- sf::st_transform(orter, sf::st_crs(4326)) |> dplyr::filter(LAN %in% c(11, 12))
 
 # is last trip
 activities <- activities |>
