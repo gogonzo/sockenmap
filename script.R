@@ -126,7 +126,7 @@ m <- leaflet() |>
   addTiles() |>
   addPolygons(
     data = orter,
-    fillColor = ~ ifelse(visited, "#2eb6ff", "#ffffff"),
+    fillColor = ~ ifelse(visited, "white", "red"),
     weight = 1,
     # add hover
     highlightOptions = highlightOptions(
@@ -139,8 +139,9 @@ m <- leaflet() |>
   # add socken polygons
   addPolygons(
     data = socken,
-    fillColor = ~ ifelse(visited, "grey", "white"),
+    fillColor = ~ ifelse(visited, "white", "red"),
     color = "black",
+    dashArray = "5, 5",
     weight = 1,
     # add hover
     highlightOptions = highlightOptions(
@@ -153,7 +154,8 @@ m <- leaflet() |>
   # add old activities
   addPolylines(
     data = sf::st_zm(activities, 0),
-    color = ~ ifelse(last, "red", "blue"),
+    color = ~ ifelse(last, "black", "blue"),
+    weight = 3,
     highlightOptions = highlightOptions(
       weight = 3,
       color = "#490080",
@@ -166,7 +168,7 @@ m <- leaflet() |>
   addLegend(
     title = "Is parish visited?",
     position = "bottomleft",
-    colors = c("grey", "white"),
+    colors = c("white", "red"),
     labels = c(
       sprintf("Visited (%d)", is_socken_visited$n[is_socken_visited$visited]),
       sprintf("Not visited (%d)", is_socken_visited$n[!is_socken_visited$visited])
@@ -176,7 +178,7 @@ m <- leaflet() |>
   addLegend(
     title = sprintf("Activities (%.2f km)", sum(sf::st_length(activities)) / 1000),
     position = "bottomright",
-    colors = c("blue", "red"),
+    colors = c("blue", "black"),
     labels = c(
       sprintf("Old (%d)", nrow(activities) - 1),
       sprintf("Last (%s)", as.Date(max(activities$date)))
