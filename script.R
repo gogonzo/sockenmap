@@ -121,6 +121,12 @@ orter <- dplyr::mutate(
 )
 orter$label <- lapply(orter$label, htmltools::HTML)
 
+is_ort_visited <- orter |>
+  dplyr::group_by(TATORTSKOD, TATORT) |>
+  dplyr::summarise(visited = sum(n) > 0) |>
+  dplyr::group_by(visited) |>
+  dplyr::summarise(n = dplyr::n())
+
 
 library(leaflet)
 m <- leaflet() |>
@@ -168,12 +174,21 @@ m <- leaflet() |>
   addScaleBar(position = "bottomleft", options = scaleBarOptions(imperial = FALSE, maxWidth = 200)) |>
   # add legend containing visited and not visited
   addLegend(
-    title = "Is parish visited?",
+    title = "Is socken visited?",
     position = "bottomleft",
     colors = c("white", "red"),
     labels = c(
       sprintf("Visited (%d)", is_socken_visited$n[is_socken_visited$visited]),
       sprintf("Not visited (%d)", is_socken_visited$n[!is_socken_visited$visited])
+    )
+  ) |>
+  addLegend(
+    title = "Is tätort visited?",
+    position = "bottomleft",
+    colors = c("white", "red"),
+    labels = c(
+      sprintf("Visited (%d)", is_ort_visited$n[is_ort_visited$visited]),
+      sprintf("Not visited (%d)", is_ort_visited$n[!is_ort_visited$visited])
     )
   ) |>
   # add legend for old and last activity being over the socken legend
