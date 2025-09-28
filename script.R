@@ -10,7 +10,9 @@ deso <- sf::st_read("DeSO_2018_v2.gpkg") |> sf::st_transform(sf::st_crs(socken))
 orter <- sf::st_read("Tatorter_1980_2020.gpkg") |> sf::st_transform(sf::st_crs(socken))
 socken <- sf::st_transform(socken, sf::st_crs(4326))
 deso <- sf::st_transform(deso, sf::st_crs(4326))
-orter <- sf::st_transform(orter, sf::st_crs(4326)) |> dplyr::filter(LAN %in% c(11, 12))
+
+colnames(orter) <- tolower(colnames(orter))
+orter <- sf::st_transform(orter, sf::st_crs(4326)) |> dplyr::filter(lan %in% c(11, 12))
 
 # is last trip
 activities <- activities |>
@@ -89,7 +91,7 @@ activity_orter <- do.call(
       activity <- activities[idx, ]
       ort_idx <- unlist(sf::st_intersects(activity, orter))
       if (length(ort_idx)) {
-        activity_orter <- orter[ort_idx, c("UUID", "TATORT", "BEF")]
+        activity_orter <- orter[ort_idx, c("uuid", "tatort", "bef")]
         activity_orter$date <- activity$date
         as.data.frame(activity_orter)
       }
@@ -98,7 +100,7 @@ activity_orter <- do.call(
 )
 
 orter_statistics <- activity_orter |>
-  dplyr::group_by(UUID) |>
+  dplyr::group_by(uuid) |>
   dplyr::summarise(
     n = length(unique(as.Date(date))),
     last_time = max(as.Date(date))
@@ -110,19 +112,19 @@ orter <- dplyr::mutate(
   orter,
   n = ifelse(is.na(n), 0, n),
   visited = n > 0,
-  BEF_10K = BEF > 10000,
-  BEF_5K = BEF > 5000,
-  BEF_1K = BEF > 1000,
-  BEF_500 = BEF > 500,
+  bef_10K = bef > 10000,
+  bef_5K = bef > 5000,
+  bef_1K = bef > 1000,
+  bef_500 = bef > 500,
   label = sprintf(
     "<strong>%s</strong><br/>visited count: %s<br/>last visited: %s<br/>Population: %s",
-    TATORT, n, last_time, BEF
+    tatort, n, last_time, bef
   )
 )
 orter$label <- lapply(orter$label, htmltools::HTML)
 
 is_ort_visited <- orter |>
-  dplyr::group_by(TATORTSKOD, TATORT) |>
+  dplyr::group_by(tatortskod, tatort) |>
   dplyr::summarise(visited = sum(n) > 0) |>
   dplyr::group_by(visited) |>
   dplyr::summarise(n = dplyr::n())
