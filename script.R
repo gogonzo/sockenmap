@@ -184,15 +184,15 @@ m <- leaflet() |>
       sprintf("Not visited (%d)", is_socken_visited$n[!is_socken_visited$visited])
     )
   ) |>
-  addLegend(
-    title = "Is tätort visited?",
-    position = "bottomleft",
-    colors = c("white", "red"),
-    labels = c(
-      sprintf("Visited (%d)", is_ort_visited$n[is_ort_visited$visited]),
-      sprintf("Not visited (%d)", is_ort_visited$n[!is_ort_visited$visited])
-    )
-  ) |>
+  # addLegend(
+  #   title = "Is tätort visited?",
+  #   position = "bottomleft",
+  #   colors = c("white", "red"),
+  #   labels = c(
+  #     sprintf("Visited (%d)", is_ort_visited$n[is_ort_visited$visited]),
+  #     sprintf("Not visited (%d)", is_ort_visited$n[!is_ort_visited$visited])
+  #   )
+  # ) |>
   # add legend for old and last activity being over the socken legend
   addLegend(
     title = sprintf("Activities (%.2f km)", sum(sf::st_length(activities)) / 1000),
