@@ -164,7 +164,7 @@ m <- leaflet() |>
   # add old activities
   addPolylines(
     data = sf::st_zm(activities, 0),
-    color = ~ ifelse(last, "black", "blue"),
+    color = "blue",
     weight = 3,
     highlightOptions = highlightOptions(
       weight = 3,
@@ -176,7 +176,7 @@ m <- leaflet() |>
   addScaleBar(position = "bottomleft", options = scaleBarOptions(imperial = FALSE, maxWidth = 200)) |>
   # add legend containing visited and not visited
   addLegend(
-    title = "Är socken besökt?",
+    title = "Har socknen besökts?",
     position = "bottomleft",
     colors = c("white", "red"),
     labels = c(
@@ -195,13 +195,10 @@ m <- leaflet() |>
   # ) |>
   # add legend for old and last activity being over the socken legend
   addLegend(
-    title = sprintf("Aktiviteter (%.2f km)", sum(sf::st_length(activities)) / 1000),
+    title = sprintf("Resor (%.2f km)", sum(sf::st_length(activities)) / 1000),
     position = "bottomright",
-    colors = c("blue", "black"),
-    labels = c(
-      sprintf("Tidigare (%d)", nrow(activities) - 1),
-      sprintf("Sista (%s)", as.Date(max(activities$date)))
-    ),
+    colors = "blue",
+    labels = "Rutter",
     opacity = 1
   )
 html_file <- "index.html"
