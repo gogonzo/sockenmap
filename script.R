@@ -176,12 +176,12 @@ m <- leaflet() |>
   addScaleBar(position = "bottomleft", options = scaleBarOptions(imperial = FALSE, maxWidth = 200)) |>
   # add legend containing visited and not visited
   addLegend(
-    title = "Is socken visited?",
+    title = "Är socken besökt?",
     position = "bottomleft",
     colors = c("white", "red"),
     labels = c(
-      sprintf("Visited (%d)", is_socken_visited$n[is_socken_visited$visited]),
-      sprintf("Not visited (%d)", is_socken_visited$n[!is_socken_visited$visited])
+      sprintf("Ja (%d)", is_socken_visited$n[is_socken_visited$visited]),
+      sprintf("Nej (%d)", is_socken_visited$n[!is_socken_visited$visited])
     )
   ) |>
   # addLegend(
@@ -195,12 +195,12 @@ m <- leaflet() |>
   # ) |>
   # add legend for old and last activity being over the socken legend
   addLegend(
-    title = sprintf("Activities (%.2f km)", sum(sf::st_length(activities)) / 1000),
+    title = sprintf("Aktiviteter (%.2f km)", sum(sf::st_length(activities)) / 1000),
     position = "bottomright",
     colors = c("blue", "black"),
     labels = c(
-      sprintf("Old (%d)", nrow(activities) - 1),
-      sprintf("Last (%s)", as.Date(max(activities$date)))
+      sprintf("Tidigare (%d)", nrow(activities) - 1),
+      sprintf("Sista (%s)", as.Date(max(activities$date)))
     ),
     opacity = 1
   )
